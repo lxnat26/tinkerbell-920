@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700&family=Gloock&display=swap');
+@font-face {
+    font-family:Glook;
+    src: url("../media/fonts/Gloock-Regular.ttf");
+}
+
+@font-face {
+    font-family:bigShoulders;
+    src: url("../media/fonts/BigShouldersInlineDisplay-VariableFont_wght.ttf");
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/c0/66/78/c066784424920682019a85c5e4b52ebf.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+    
+
+h1{
+    color:rgb(35, 73, 59);
+    /*paste the css thing to use*/
+    font-family: 'Glook', sans-serif;
+    text-align:center;
+    
+}
+
+img{
+    color:rgb(151, 59, 108);
+    border:3px dashed;
+    padding:30px;
+    width: 200px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:14%;
+    margin-bottom:30px;
+
+}
+
+table,td{
+    color:rgb(35, 73, 59);
+    border:1px solid;
+    margin-left:24%;
+    margin-right:24%;
+    text-align:center;
+}
+
+th{
+    color:rgb(35, 73, 59);
+    border:1px solid;
+    margin-left:24%;
+    margin-right:24%;
+    text-align:center;
+    font-family:bigShoulders, 'Big Shoulders Inline Display', cursive;
+}
+
+.Lists{
+    color:rgb(151, 59, 108);
+    text-align:center;
+    list-style-position: inside;
+}
+
+.Lists li{
+    margin-right:30px;
+}
+
+h4{
+    font-family:bigShoulders, 'Big Shoulders Inline Display', cursive;
+    margin-left:6px;
+    margin-bottom:1px;
+}
+
+h2{
+    text-align:center;
+    color:rgb(35, 73, 59);
+}
+
+
+
